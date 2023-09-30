@@ -1,5 +1,4 @@
-# Task-1: 
-# Neural Network for Handwritten Digits Recognition
+# Task-1: Neural Network for Handwritten Digits Recognition
 This code is designed to build and train a neural network for recognizing handwritten digits from the MNIST dataset. The network architecture includes convolutional layers, max pooling, dropout for regularization, and dense layers. It utilizes the Keras library with a TensorFlow backend.
 
 ## Installation and Usage
