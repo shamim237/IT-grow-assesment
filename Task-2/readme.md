@@ -2,7 +2,7 @@
 ## Explanation:
 The choice of the database name, titanic, is indicative of the dataset being used. Naming the database after the dataset helps in maintaining clarity and relevance. It allows users to quickly understand the purpose or content of the database.
 
-#**Collection Name: data**
+##**Collection Name: data**
 ##Explanation:
 The collection name, data, is a generic term used to represent the fact that this collection contains general data related to the Titanic dataset. It doesn't specify any particular type of data within the collection.
 ##**Choice Rationale:**
