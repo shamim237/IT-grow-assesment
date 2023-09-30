@@ -21,14 +21,14 @@ This code is designed to build and train a neural network for recognizing handwr
 The code performs the following steps:
 1. Imports necessary libraries.
 2. Loads and preprocesses the MNIST dataset.
-3. Normalizes the data.
+3. Normalize the data.
 4. Displays 10 random images from the training set.
 5. Flattens the images and categorizes the labels.
-6. Reshapes the data to include a grayscale channel.
+6. Reshape the data to include a grayscale channel.
 7. Builds the neural network with convolutional, max pooling, dropout, and dense layers.
-8. Compiles the model and fits it to the dataset for training.
+8. Compile the model and fit it to the dataset for training.
 9. Plots graphs showing training vs. validation loss and accuracy over epochs.
-10. Evaluates the model on the test dataset and displays the loss and accuracy.
+10. Evaluate the model on the test dataset and display the loss and accuracy.
 11. Creates predictions on the test dataset.
 12. Generates a confusion matrix to evaluate the performance.
 
@@ -41,3 +41,37 @@ The code is organized as follows:
 
 ## Conclusion
 This code demonstrates an efficient approach to building and training a neural network for recognizing handwritten digits. It uses convolutional layers for feature extraction, max pooling for down-sampling, and dropout for regularization. The model achieves high accuracy on the MNIST dataset. The code is well-structured, making it easy to understand and modify for similar tasks.
+
+
+Certainly! Here's the provided information formatted for a GitHub README.md file:
+
+
+# Task 2: Working with databases
+This project involves creating a simple NoSQL database using MongoDB and providing a Python script to interact with it. The script enables adding, retrieving, updating, and deleting passenger data within the database.
+
+## Installation
+### Dependencies
+- Python 3
+- MongoDB
+- Required Python Libraries: `pymongo`
+
+### Instructions
+1. Ensure you have Python 3 and MongoDB installed on your system.
+2. Install the necessary Python library using the following command:
+   ```bash
+   pip install pymongo
+   ```
+
+## Usage
+### Connecting to MongoDB
+- The Python script connects to the MongoDB server running on `localhost` at port `27017`.
+- Create a database using MongoDB Compass with the database name "titanic" and collection name "data"
+- Import the data that has been given to the Task-2 directory
+- Run the Python script to interact with the database.
+
+
+### Functions
+- `add_passenger(data)`: Adds a passenger to the database.
+- `get_all_passengers()`: Retrieves all passengers from the database.
+- `update_passenger(passenger_id, new_data)`: Updates a passenger's information.
+- `delete_passenger(passenger_id)`: Deletes a passenger from the database.
